@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:inputType=""
+        android:text="@string/first_name"
+        tools:ignore="LabelFor,TextFields,UnknownId" />
+
+    <EditText
+        android:id="@+id/editText_lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints=""
+        android:inputType=""
+        android:text="@string/last_name"
+        tools:ignore="LabelFor,TextFields,UnknownId" />
+
+
+    <Button
+        android:id="@+id/button_apply"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="160dp"
+        android:text="@string/apply"
+        tools:ignore="UnknownId" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="480dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/gohan"/>
+
+    <TextView
+        android:id="@+id/textView_fullName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="16dp"
+        android:background="#EDE4E4"
+        android:text="@string/full_name"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+
+
+
+</RelativeLayout>
